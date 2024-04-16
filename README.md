@@ -1,14 +1,26 @@
 # Generalized-simplicial-model
-Datasets and Codes from the paper "A generalized simplicial model and its application"
+Generalized-simplicial-model is a configuration model for higher-order networks. The model provides tools for generating and dismantling 2-simplices within networks, along with associated functionalities for network analysis. The project includes implementation of a generalized simplicial model in the article "A Generalized Simplicial Model and Its Application", and also includes relevant datasets used in the research.
 ## Usage
 To generate the simplicial model, run the following code:
 ```
 python configuration_model.py
 ```
+Parameters:
+
+network_name: Name of your network or dataset.
+
+dataset_path: Path to your dataset file. The dataset should be in the format of an undirected graph.
+
+operation: Set operation to 0 for generating 2-simplices. Set operation to 1 for dismantling existing 2-simplices.
+
+save_interval: The interval for saving the model during iterations.
+
+experiment_repeats: The number of times the experiment should be repeated.
+
 ## Citation
 If you use this algorithm in your research, please cite this project.
 ```
-Rongmei Yang, Fang Zhou, Bo Liu, and Linyuan L, A generalized simplicial model and its application. 2022.
+Rongmei Yang, Fang Zhou, Bo Liu, Linyuan Lü; A generalized simplicial model and its application. Chaos 1 April 2024; 34 (4): 043113.
 ```
 
 ## References
